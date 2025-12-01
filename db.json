@@ -1,159 +1,88 @@
 {
-  "recettes":[
+  "recettes": [
     {
-        "id": "r1",
-        "titre": "Pâtes à la tomate",
-        "description": "Recette simple de pâtes avec sauce tomate maison.",
-        "ingredients": [
-            {
-                "nom": "Pâtes",
-                "quantite": 200,
-                "unite": "g"
-            },
-            {
-                "nom": "Tomate",
-                "quantite": 3,
-                "unite": "pièce"
-            },
-            {
-                "nom": "Fromage râpé",
-                "quantite": 50,
-                "unite": "g"
-            }
-        ],
-        "instructions": [
-            "Faire cuire les pâtes.",
-            "Préparer la sauce tomate.",
-            "Mélanger et servir."
-        ],
-        "duree": 25,
-        "tags": [
-            "rapide",
-            "végétarien"
-        ]
+      "id": "r1",
+      "titre": "Pâtes à la tomate",
+      "description": "Recette simple de pâtes avec sauce tomate maison.",
+      "ingredients": [
+        { "nom": "Pâtes", "quantite": 200, "unite": "g" },
+        { "nom": "Tomate", "quantite": 3, "unite": "pièce" },
+        { "nom": "Fromage râpé", "quantite": 50, "unite": "g" }
+      ],
+      "instructions": [
+        "Faire cuire les pâtes.",
+        "Préparer la sauce tomate.",
+        "Mélanger et servir."
+      ],
+      "duree": 25,
+      "tags": ["rapide", "végétarien"]
     },
     {
-        "id": "r2",
-        "titre": "Omelette simple",
-        "description": "Omelette rapide pour utiliser des oeufs.",
-        "ingredients": [
-            {
-                "nom": "Oeuf",
-                "quantite": 3,
-                "unite": "pièce"
-            },
-            {
-                "nom": "Fromage râpé",
-                "quantite": 30,
-                "unite": "g"
-            }
-        ],
-        "instructions": [
-            "Battre les oeufs.",
-            "Cuire à la poêle.",
-            "Ajouter le fromage et servir."
-        ],
-        "duree": 10,
-        "tags": [
-            "rapide"
-        ]
+      "id": "r2",
+      "titre": "Omelette simple",
+      "description": "Omelette rapide pour utiliser des oeufs.",
+      "ingredients": [
+        { "nom": "Oeuf", "quantite": 3, "unite": "pièce" },
+        { "nom": "Fromage râpé", "quantite": 30, "unite": "g" }
+      ],
+      "instructions": [
+        "Battre les oeufs.",
+        "Cuire à la poêle.",
+        "Ajouter le fromage et servir."
+      ],
+      "duree": 10,
+      "tags": ["rapide"]
     },
     {
-        "id": "r3",
-        "titre": "Salade tomate",
-        "description": "Salade fraîche parfaite pour utiliser des tomates mûres.",
-        "ingredients": [
-            {
-                "nom": "Tomate",
-                "quantite": 2,
-                "unite": "pièce"
-            }
-        ],
-        "instructions": [
-            "Couper les tomates.",
-            "Assaisonner et servir."
-        ],
-        "duree": 5,
-        "tags": [
-            "entrée",
-            "végétarien"
-        ]
+      "id": "r3",
+      "titre": "Salade tomate",
+      "description": "Salade fraîche parfaite pour utiliser des tomates mûres.",
+      "ingredients": [
+        { "nom": "Tomate", "quantite": 2, "unite": "pièce" }
+      ],
+      "instructions": ["Couper les tomates.", "Assaisonner et servir."],
+      "duree": 5,
+      "tags": ["entrée", "végétarien"]
     },
     {
-        "id": "r4",
-        "titre": "Curry doux de pois chiches",
-        "description": "Un curry crémeux et réconfortant servi avec du riz complet.",
-        "ingredients": [
-            {
-                "nom": "Pois chiches cuits",
-                "quantite": 1,
-                "unite": "bocal"
-            },
-            {
-                "nom": "Lait de coco",
-                "quantite": 200,
-                "unite": "ml"
-            },
-            {
-                "nom": "Carotte",
-                "quantite": 2,
-                "unite": "pièce"
-            },
-            {
-                "nom": "Riz complet",
-                "quantite": 150,
-                "unite": "g"
-            }
-        ],
-        "instructions": [
-            "Rissoler les carottes.",
-            "Ajouter les pois chiches et les épices.",
-            "Verser le lait de coco et mijoter.",
-            "Servir avec le riz complet."
-        ],
-        "duree": 35,
-        "tags": [
-            "végétarien",
-            "plat mijoté"
-        ]
+      "id": "r4",
+      "titre": "Curry doux de pois chiches",
+      "description": "Un curry crémeux et réconfortant servi avec du riz complet.",
+      "ingredients": [
+        { "nom": "Pois chiches cuits", "quantite": 1, "unite": "bocal" },
+        { "nom": "Lait de coco", "quantite": 200, "unite": "ml" },
+        { "nom": "Carotte", "quantite": 2, "unite": "pièce" },
+        { "nom": "Riz complet", "quantite": 150, "unite": "g" }
+      ],
+      "instructions": [
+        "Rissoler les carottes.",
+        "Ajouter les pois chiches et les épices.",
+        "Verser le lait de coco et mijoter.",
+        "Servir avec le riz complet."
+      ],
+      "duree": 35,
+      "tags": ["végétarien", "plat mijoté"]
     },
     {
-        "id": "r5",
-        "titre": "Poêlée courgettes & poulet",
-        "description": "Une poêlée express parfumée au basilic.",
-        "ingredients": [
-            {
-                "nom": "Courgette",
-                "quantite": 2,
-                "unite": "pièce"
-            },
-            {
-                "nom": "Poulet rôti",
-                "quantite": 0.5,
-                "unite": "pièce"
-            },
-            {
-                "nom": "Poivron rouge",
-                "quantite": 1,
-                "unite": "pièce"
-            },
-            {
-                "nom": "Basilic frais",
-                "quantite": 0.5,
-                "unite": "botte"
-            }
-        ],
-        "instructions": [
-            "Saisir les courgettes et le poivron.",
-            "Ajouter les morceaux de poulet.",
-            "Parsemer de basilic avant de servir."
-        ],
-        "duree": 25,
-        "tags": [
-            "rapide",
-            "protéiné"
-        ]
-    }]
+      "id": "r5",
+      "titre": "Poêlée courgettes & poulet",
+      "description": "Une poêlée express parfumée au basilic.",
+      "ingredients": [
+        { "nom": "Courgette", "quantite": 2, "unite": "pièce" },
+        { "nom": "Poulet rôti", "quantite": 0.5, "unite": "pièce" },
+        { "nom": "Poivron rouge", "quantite": 1, "unite": "pièce" },
+        { "nom": "Basilic frais", "quantite": 0.5, "unite": "botte" }
+      ],
+      "instructions": [
+        "Saisir les courgettes et le poivron.",
+        "Ajouter les morceaux de poulet.",
+        "Parsemer de basilic avant de servir."
+      ],
+      "duree": 25,
+      "tags": ["rapide", "protéiné"]
+    }
+  ],
+
   "produits": [
     {
       "id": "p2",
