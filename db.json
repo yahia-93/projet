@@ -1,4 +1,34 @@
 {
+    "produits": [
+    {
+        "id": "p2",
+        "nom": "Lait",
+        "image": "https://www.delice.tn/wp-content/uploads/2023/04/lait-demi-ecreme.png",
+        "quantite": 1,
+        "unite": "L",
+        "date_expiration": "2025-12-02",
+        "categorie": "Produits laitiers"
+    },
+    {
+        "id": "p7",
+        "nom": "Courgette",
+        "image": "https://cdn.geantdrive.tn/bourgo-mall/1169975-large_default/courgette.jpg",
+        "quantite": 4,
+        "unite": "pièce",
+        "date_expiration": "2025-12-05",
+        "categorie": "Légumes"
+    },
+    {
+        "id": "p8",
+        "nom": "Poulet rôti",
+        "image": "https://cdn.geantdrive.tn/tunis-city/1233984-large_default/poulet-roti.jpg",
+        "quantite": 1,
+        "unite": "pièce",
+        "date_expiration": "2025-12-01",
+        "categorie": "Protéines"
+    }
+    ],
+
     "unites": [
         "pièce",
         "g",
