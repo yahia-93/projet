@@ -10,6 +10,33 @@
       "categorie": "Produits laitiers"
     },
     {
+        "id": "p3",
+        "nom": "Oeuf",
+        "image": "https://i0.wp.com/technomitron.aainb.com/wp-content/uploads/2018/09/word-image-93.jpeg?w=622&ssl=1",
+        "quantite": 12,
+        "unite": "pièce",
+        "date_expiration": "2025-12-10",
+        "categorie": "Épicerie"
+    },
+    {
+        "id": "p4",
+        "nom": "Pâtes",
+        "image": "https://cdn.geantdrive.tn/azur-city/1219838-large_default/pate-ressort.jpg",
+        "quantite": 500,
+        "unite": "g",
+        "date_expiration": "2026-06-01",
+        "categorie": "Épicerie"
+    },
+    {
+        "id": "p5",
+        "nom": "Fromage râpé",
+        "image": "https://cdn.geantdrive.tn/bourgo-mall/1170986-large_default/fromage-rape.jpg",
+        "quantite": 200,
+        "unite": "g",
+        "date_expiration": "2025-12-08",
+        "categorie": "Produits laitiers"
+    },
+    {
       "id": "p6",
       "nom": "Carotte",
       "image": "https://cdn.geantdrive.tn/bourgo-mall/1169768-large_default/carotte-sans-fanes.jpg",
